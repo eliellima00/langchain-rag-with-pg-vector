@@ -59,7 +59,23 @@ PERGUNTA: Quantos clientes temos em 2024?
 RESPOSTA: Não tenho informações necessárias para responder sua pergunta.
 ```
 
+### Ordem de execução dos scripts 
 
+Ordem de execução
+Subir o banco de dados:
+
+<pre>
+docker compose up -d
+
+Executar ingestão do PDF:
+
+<pre>
+python src/ingest.py
+
+Rodar o chat:
+
+<pre>
+python src/chat.py
 
 
 
