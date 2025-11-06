@@ -1,3 +1,4 @@
+# RAG Langchain com PG Vector 
 
 Este projeto é a resolução do primeiro desafio técico do MBA em Engenharia de Sofware com I.A da FullCycle.
 
