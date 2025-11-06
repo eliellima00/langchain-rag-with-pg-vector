@@ -74,7 +74,7 @@ def chat(question: str) -> str:
 def main():
     """Loop principal do chat"""
     print("="*60)
-    print("RAG CHAT - Digite 'sair' para encerrar")
+    print("RAG CHAT - Façã sua pergunta ou Digite 'sair' para encerrar")
     print("="*60)
     print()
 

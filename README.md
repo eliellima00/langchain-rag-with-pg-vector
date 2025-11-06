@@ -39,3 +39,27 @@ Se ocorrer tudo certo, vai exibir a mensagem :
 > EMBEDDING FINISHED WITH SUCCESS
 
 
+### 4 - Executando o chat
+
+Após o ingest, basta executar o script chat.py que o mesmo abrir um terminal interativo que ira ficar recebendo e respondendo as perguntas que você fizer, sobre o documento.
+
+Ex de interações no CLI
+
+```
+Faça sua pergunta:
+
+PERGUNTA: Qual o faturamento da Empresa SuperTechIABrazil?
+RESPOSTA: O faturamento foi de 10 milhões de reais.
+
+---
+
+Perguntas fora do contexto:
+
+PERGUNTA: Quantos clientes temos em 2024?
+RESPOSTA: Não tenho informações necessárias para responder sua pergunta.
+```
+
+
+
+
+
