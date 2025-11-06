@@ -34,7 +34,7 @@ Para testar a conexão, use seu banco de dados de preferencia, no meu caso usei 
 ![!\[\[dbeaver rag challenge.png\]\]](assets/image.png)
 
 ### 3 - Execução do Ingest dos Documentos
-Para executar o script de ingest dos documentos, usando o comando `python3 src/ingest.py`.
+Para executar o script de ingest dos documentos, basta usar o comando `python3 src/ingest.py`.
 
 Se ocorrer tudo certo, vai exibir a mensagem :
 > EMBEDDING FINISHED WITH SUCCESS
@@ -42,7 +42,7 @@ Se ocorrer tudo certo, vai exibir a mensagem :
 
 ### 4 - Executando o chat
 
-Após o ingest, basta executar o script chat.py que o mesmo abrir um terminal interativo que ira ficar recebendo e respondendo as perguntas que você fizer, sobre o documento.
+Após o ingest, basta executar o script chat.py que o mesmo irá abrir um terminal interativo que ira ficar recebendo e respondendo as perguntas que você fizer, sobre o documento.
 
 Ex de interações no CLI
 
@@ -59,24 +59,5 @@ Perguntas fora do contexto:
 PERGUNTA: Quantos clientes temos em 2024?
 RESPOSTA: Não tenho informações necessárias para responder sua pergunta.
 ```
-
-### Ordem de execução dos scripts 
-
-Ordem de execução
-Subir o banco de dados:
-
-<pre>
-docker compose up -d
-
-Executar ingestão do PDF:
-
-<pre>
-python src/ingest.py
-
-Rodar o chat:
-
-<pre>
-python src/chat.py
-
 
 
