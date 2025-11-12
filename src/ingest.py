@@ -33,7 +33,7 @@ document_path = str(root_dir) + '/' + pdf_path
 docs = PyPDFLoader(document_path).load()
 
 chunks = RecursiveCharacterTextSplitter(
-    chunk_size = 500,
+    chunk_size = 1000,
     chunk_overlap = 150,
     add_start_index=False
 ).split_documents(docs) 
